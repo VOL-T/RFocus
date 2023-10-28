@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Rajdhani;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1507546530-14a03f8d180a?auto=format&fit=crop&q=80&w=2142&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.App {
+    height: 1000px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 6rem;
+    background: rgba(255, 255, 255, .5);
+    border: solid black;
+    border-radius: 1rem;
+    width: 20rem;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 5s;
+}
+
+h2 {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    background: rgba(255, 255, 255, .5);
+    border: solid black;
+    border-radius: 1rem;
+    width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: flowIn 4s;
+}
+
+.numbers {
+    font-size: 5rem;
+    background: rgba(255, 255, 255, .6);
+    padding: 1rem;
+    border: solid black;
+    border-radius: 1rem;
+    width: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 5s;
+}
+
+button {
+    background: #15f800;
+    width: 12rem;
+    height: 6rem;
+    border-radius: 1rem;
+    transition: 1s;
+    font-size: 3rem;
+    margin: 5rem;
+    font-family: Kanit;
+    background: rgba(255, 255, 255, .6);
+    border: solid black;
+    border-radius: 1rem;
+    animation: fadeIn 5s;
+}
+
+button:hover {
+    background: rgba(121, 121, 121, 0.5);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes flowIn {
+    0% {
+        opacity: 0;
+        transform: translatey(30px);
+      }
+
+    50% {
+        opacity: 0;
+        transform: translatey(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatey(0px);
+      }
+}
