@@ -64,6 +64,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
     animation: fadeIn 5s;
 }
 
@@ -84,6 +85,21 @@ button {
 
 button:hover {
     background: rgba(121, 121, 121, 0.5);
+}
+
+.congrats {
+    font-size: 3rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, .6);
+    border: solid black;
+    border-radius: 1rem;
+    width: 35rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    animation: fadeIn 5s;
+    opacity: 1;
 }
 
 @keyframes fadeIn {
