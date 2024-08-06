@@ -1,9 +1,0 @@
-Make start button
-
-After start is pressed show tree, add timer, change start button to stop button
-
-After stop is pressed, change stop to start
-
-Show the tree with time as final result
-
-When start is pressed again reset the timer

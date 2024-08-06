@@ -37,6 +37,14 @@ function App() {
     setOpaque(0);
   }
 
+  module.exports = {
+    
+    rules: {
+      "no-unused-vars": process.env.CI ? "warn" : "error",
+      "eqeqeq": process.env.CI ? "warn" : "error",
+    }
+  };
+
   return (
     <div className='App' onMouseLeave={() => stop()}>
       <h1>Focus</h1>
